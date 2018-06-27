@@ -16,4 +16,8 @@
     <param-name>institute</param-name>
     <param-value>Infocamps</param-value>
   </context-param>
+  <context-param>
+    <param-name>tableCreationRequired</param-name>
+    <param-value>Yes</param-value>
+  </context-param>
 </web-app>
