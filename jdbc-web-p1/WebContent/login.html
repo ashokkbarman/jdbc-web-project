@@ -12,28 +12,29 @@
 	<div class="container">
 	
 	<nav class="nav nav-pills nav-justified">
-		<a class="nav-link" href="index.html">Home</a> 
-		<a class="nav-link active disabled" href="#">Login</a>
-		 <a class="nav-link"
-			href="register.html">Register</a> <a class="nav-link"
-			href="contact-us.html">Contact Us</a>
+		<a class="nav-link active disabled" href="index.html">Home</a> <a
+				class="nav-link" href="#">Login</a> <a class="nav-link"
+				href="register.html">Register</a> <a class="nav-link"
+				href="enrollment-form.html">Enrollment</a> <a class="nav-link"
+				href="profile.html">Profile</a> <a class="nav-link"
+				href="contact-us.html">Contact Us</a>
 	</nav>
 
 	<hr />
 	
 	
 		<h1 align="center">Login Page</h1>
-		<form>
+		<form action="login" method="POST">
 			<div class="form-group">
 				<label for="exampleInputEmail1">Email address</label> <input
-					type="email" class="form-control" id="exampleInputEmail1"
+					type="email" name="email"  class="form-control" id="exampleInputEmail1"
 					aria-describedby="emailHelp" placeholder="Enter email"> <small
 					id="emailHelp" class="form-text text-muted">We'll never
 					share your email with anyone else.</small>
 			</div>
 			<div class="form-group">
 				<label for="exampleInputPassword1">Password</label> <input
-					type="password" class="form-control" id="exampleInputPassword1"
+					type="password" name="password" class="form-control" id="exampleInputPassword1"
 					placeholder="Password">
 			</div>
 			<div class="form-check">

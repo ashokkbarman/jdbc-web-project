@@ -9,17 +9,65 @@
 	crossorigin="anonymous">
 </head>
 <body>
-<div class="container">
-	
-	<nav class="nav nav-pills nav-justified">
-		<a class="nav-link active disabled" href="#">Home</a> <a
-			class="nav-link" href="login.html">Login</a> <a class="nav-link"
-			href="register.html">Register</a> <a class="nav-link"
-			href="contact-us.html">Contact Us</a>
-	</nav>
+	<div class="container">
 
-	<hr />
-	<h1 align="center">Welcome Home!!</h1>
+		<nav class="nav nav-pills nav-justified">
+			<a class="nav-link active disabled" href="#">Home</a> <a
+				class="nav-link" href="login.html">Login</a> <a class="nav-link"
+				href="register.html">Register</a> <a class="nav-link"
+				href="enrollment-form.html">Enrollment</a> <a class="nav-link"
+				href="profile.html">Profile</a> <a class="nav-link"
+				href="contact-us.html">Contact Us</a>
+		</nav>
+
+		<hr />
+		<h1 align="center">Welcome Home!!</h1>
+		<h2>Servlets</h2>
+		<ul>
+			<li><a href="hello?email=a@a.com">Hello Servlet</a></li>
+			<li><a href="helloNew">Hello Servlet New</a></li>
+
+			<li>
+
+				<form action="helloNew" method="POST">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address New</label> <input
+							type="email" name="email" class="form-control"
+							id="exampleInputEmail1" aria-describedby="emailHelp"
+							placeholder="Enter email"> <small id="emailHelp"
+							class="form-text text-muted">We'll never share your email
+							with anyone else.</small>
+					</div>
+
+
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+
+			</li>
+
+			<li>
+
+				<form action="hello" method="POST">
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label> <input
+							type="email" name="email" class="form-control"
+							id="exampleInputEmail1" aria-describedby="emailHelp"
+							placeholder="Enter email"> <small id="emailHelp"
+							class="form-text text-muted">We'll never share your email
+							with anyone else.</small>
+					</div>
+
+
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+
+
+			</li>
+		</ul>
+
+		<hr />
+		<h4 align="center">&copy InfoCampus, 2018</h4>
 	</div>
 </body>
 </html>
